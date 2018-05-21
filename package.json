@@ -1,0 +1,37 @@
+{
+  "name": "excel-export",
+  "title": "jQuery Table To Excel Exporter",
+  "description": "Export your HTML tables to Excel format.",
+  "keywords": [
+    "jquery-plugins",
+    "jquery-plugin",
+    "ecosystem:jquery",
+    "excel",
+    "xls",
+    "export",
+    "table"
+  ],
+  "version": "1.1.0",
+  "author": {
+    "name": "Zenoo",
+    "url": "https://github.com/Zenoo"
+  },
+  "maintainers": [
+    {
+      "name": "Zenoo",
+      "url": "https://github.com/Zenoo"
+    }
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "bugs": "https://github.com/Zenoo/excel-export/issues",
+  "homepage": "https://github.com/Zenoo/excel-export",
+  "repository": "https://github.com/Zenoo/excel-export#readme",
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
