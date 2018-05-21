@@ -1,4 +1,4 @@
-# csvExport
+# excelExport
 
 Export your HTML tables to Excel format.
 
