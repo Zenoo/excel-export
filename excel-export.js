@@ -21,7 +21,7 @@
 
 				var a = document.createElement('a');
 				a.href = 'data:application/vnd.ms-excel;base64,' + window.btoa(unescape(encodeURIComponent(tab_text)));
-				a.download = title + '.xls';
+				a.download = settings.title + '.xls';
 				a.click();
             });
         }
