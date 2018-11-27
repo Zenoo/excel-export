@@ -14,10 +14,17 @@
 
 				let that = $(this).clone();
 				for(let tag of settings.toRemove) $(tag, that).remove();
-				for(let row of this.rows) tab_text += row.innerHTML + "</tr>";
+				for(let row of this.rows) tab_text += `<tr>
+					${Array.from(row.children).map(cell => `
+						<td>
+							${Array.from(cell.childNodes).map(e => e.innerText || e.textContent).join(' ')}
+						</td>
+					`).join('')}
+				</tr>`;
 
 				tab_text = tab_text + "</table></body></html>";
 				tab_text = tab_text.replace(/\./g, ","); //Numbers fix
+				console.log(tab_text);
 
 				var a = document.createElement('a');
 				a.href = 'data:application/vnd.ms-excel;base64,' + window.btoa(unescape(encodeURIComponent(tab_text)));
