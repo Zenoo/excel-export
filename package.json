@@ -12,6 +12,7 @@
     "table"
   ],
   "version": "1.2.0",
+  "main": "excel-export.js",
   "author": {
     "name": "Zenoo",
     "url": "https://github.com/Zenoo"

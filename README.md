@@ -9,7 +9,7 @@ Export your HTML tables to Excel format.
 Simply import JQuery & excel-export into your HTML.
 ```
 <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-<script src="https://gitcdn.link/repo/Zenoo/excel-export/master/excel-export.min.js"></script>	
+<script src="https://unpkg.com/jquery-excel-exporter@1.2.0/excel-export.min.js"></script>	
 ```
 * **How to use**
 Select your table(s) with a JQuery selector.
